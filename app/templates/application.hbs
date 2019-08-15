@@ -1,5 +1,16 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div>
+  <div class="App-header">
+    {{#link-to "index" class="App-single-tab"}}
+      Rental
+    {{/link-to}}
+    {{#link-to "about" class="App-single-tab"}}
+      About
+    {{/link-to}}
+    {{#link-to "contact" class="App-single-tab"}}
+      Contact
+    {{/link-to}}
+  </div>
+  <div>
+    {{outlet}}
+  </div>
+</div>

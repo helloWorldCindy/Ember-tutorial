@@ -1,0 +1,18 @@
+<div class="Result-display">
+  <img src={{this.rental.image}} alt="" height={{250}}>
+  <div>
+    <h3>{{this.rental.title}}</h3>
+    <div>
+      <span>Owner:</span> {{this.rental.owner}}
+    </div>
+    <div>
+      <span>Type:</span> {{rental-property-type this.rental.category}} - {{this.rental.category}}
+    </div>
+    <div>
+      <span>Location:</span> {{this.rental.city}}
+    </div>
+    <div>
+      <span>Number of bedrooms:</span> {{this.rental.bedrooms}}
+    </div>
+  </div>
+</div>

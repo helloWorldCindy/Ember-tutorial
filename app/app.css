@@ -21,24 +21,10 @@
     color: white;
     font-size: 20px;
     font-weight: 500;
-    text-decoration: underline;
-  }
-  .About-us-button {
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 13px;
-  }
-  .App-link {
-    color: #61dafb;
   }
   
-  .Result-display{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    margin: 10px;
-    padding: 10px;
+  .App-link {
+    color: #61dafb;
   }
   
   
